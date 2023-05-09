@@ -1,0 +1,27 @@
+$primary-color: #ffd700;
+
+@import 'animate.css';
+
+@font-face {
+	font-family: 'SourceCodePro';
+	src: url('./assets/font/SourceCodePro-Bold.ttf');
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: 'SourceCodePro';
+	src: url('./assets/font/SourceCodePro-Medium.ttf');
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: 'SourceCodePro';
+	src: url('./assets/font/SourceCodePro-Regular.ttf');
+	font-weight: 400;
+}
+
+* {
+  font-family: 'SourceCodePro';
+}
+
+
