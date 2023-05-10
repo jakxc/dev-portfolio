@@ -10,6 +10,7 @@ import {
   import {
     faHome,
     faUser,
+    faProjectDiagram,
     faEnvelope,
   } from '@fortawesome/free-solid-svg-icons'
 
@@ -20,13 +21,25 @@ const Navbar = () => {
                 <img src={logo} alt='Logo'/>
             </Link>
             <nav>
-                <NavLink exact='true' activeclassname='active' to='/'>
-                    <FontAwesomeIcon icon={faHome} color='4d4d4e'/>
+                <NavLink 
+                  to='/'
+                >
+                  <FontAwesomeIcon icon={faHome} color='4d4d4e'/>
                 </NavLink>
-                <NavLink exact='true' activeclassname='active' className='about-link' to='/about'>
+                <NavLink 
+                  className= "about-link"
+                  to='/about'>
                     <FontAwesomeIcon icon={faUser} color='4d4d4e'/>
                 </NavLink>
-                <NavLink exact='true' activeclassname='active' className='contact-link' to='/contact'>
+                <NavLink
+                  className= "portfolio-link"
+                  to="/portfolio"
+                >
+                  <FontAwesomeIcon icon={faProjectDiagram} color="#4d4d4e" />
+                </NavLink>
+                <NavLink 
+                  className="contact-link"
+                  to='/contact'>
                     <FontAwesomeIcon icon={faEnvelope} color='4d4d4e'/>
                 </NavLink>
             </nav>

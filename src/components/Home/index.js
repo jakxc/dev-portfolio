@@ -7,29 +7,8 @@ import './index.scss'
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
-  const nameArray = ['j', 'a', 'k', 'x', 'c']
-  const jobArray = [
-    'f',
-    'r',
-    'o',
-    'n',
-    't',
-    ' ',
-    'e',
-    'n',
-    'd',
-    ' ',
-    'd',
-    'e',
-    'v',
-    'e',
-    'l',
-    'o',
-    'p',
-    'e',
-    'r',
-    '.',
-  ]
+  const name = 'jakxc'
+  const desc = 'front end developer'
 
   useEffect(() => {
     setTimeout(() => {
@@ -40,7 +19,7 @@ const Home = () => {
   return (
     <>
       <div className="container home-page">
-        <div className="text-zone">
+        <div className="text-content">
           <h1>
             <span className={letterClass}>H</span>
             <span className={`${letterClass} _12`}>i,</span>
@@ -49,18 +28,18 @@ const Home = () => {
             <span className={`${letterClass} _14`}>'m&nbsp;</span>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={nameArray}
+              strArray={name.split('')}
               idx={15}
             />
             <br />
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={jobArray}
+              strArray={desc.split('')}
               index={20}
             />
           </h1>
           <h2>Front End Developer / React Developer</h2>
-          <Link to="/contact" className="flat-button">
+          <Link to="/contact" className="contact-button">
             CONTACT ME
           </Link>
         </div>

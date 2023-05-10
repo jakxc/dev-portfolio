@@ -1,5 +1,7 @@
+@use '../../App' as *;
+
 .home-page {
-    .text-zone {
+    .text-content {
       position: absolute;
       left: 15%;
       top: 50%;
@@ -9,7 +11,7 @@
     }
   
     h1 {
-      color: #fff;
+      color: #ffffff;
       font-size: 56px;
       line-height: 53px;
       margin: 0;
@@ -17,7 +19,7 @@
   
       &:before {
         content: '<h1>';
-        color: #ffd700;
+        color: #ffffff;
         font-size: 18px;
         position: absolute;
         margin-top: -40px;
@@ -27,7 +29,7 @@
   
       &:after {
         content: '<h1/>';
-        color: #ffd700;
+        color: #ffffff;
         font-size: 18px;
         position: absolute;
         margin-top: 18px;
@@ -47,32 +49,32 @@
     }
   
     h2 {
-      color: #8d8d8d;
+      color: $secondary-color;
       margin-top: 20px;
       font-weight: 400;
-      font-size: 11px;
+      font-size: 13px;
       font-family: sans-serif;
       letter-spacing: 3px;
       animation: fadeIn 1s 1.8s backwards;
     }
   
-    .flat-button {
-      color: #ffd700;
+    .contact-button {
+      color: $primary-color;
       font-size: 13px;
       font-weight: 400;
       letter-spacing: 4px;
       font-family: sans-serif;
       text-decoration: none;
       padding: 10px 18px;
-      border: 1px solid #ffd700;
+      border: 1px solid $primary-color;
       margin-top: 25px;
       float: left;
       animation: fadeInAnimation 1s 1.8s backwards;
       white-space: nowrap;
   
       &:hover {
-        background: #ffd700;
-        color: #333;
+        background: $primary-color;
+        color: $focus-color;
       }
     }
   }
@@ -86,7 +88,7 @@
       display: none;
     }
   
-    .home-page .text-zone {
+    .home-page .text-content {
       position: initial;
       width: 100%;
       transform: none;

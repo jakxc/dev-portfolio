@@ -5,10 +5,10 @@
 body {
   margin: 0;
   font: 400 11px/1.4 'SourceCodePro', sans-serif;
-  color: #ffc465;
+  color: #ffffff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #444444;
+  background: #323232;
   overflow: hidden;
   display: block;
 }

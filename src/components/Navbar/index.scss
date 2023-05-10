@@ -1,3 +1,5 @@
+@use '../../App' as *;
+
 .nav-bar {
     background: #181818;
     width: 120px;
@@ -46,7 +48,7 @@
         }
   
         &:hover {
-          color: #ffd700;
+          color: $primary-color;
   
           svg {
             opacity: 0;
@@ -77,7 +79,7 @@
           }
         }
       }
-  
+
       a.about-link {
         &:after {
           content: 'ABOUT';
@@ -98,7 +100,7 @@
   
       a.active {
         svg {
-          color: #ffd700;
+          color: $primary-color;
         }
       }
     }
@@ -124,7 +126,7 @@
   
         &:hover {
           .anchor-icon {
-            color: #ffd700;
+            color: $primary-color;
           }
         }
       }
