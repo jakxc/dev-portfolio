@@ -4,18 +4,24 @@
 
 body {
   margin: 0;
-  font: 400 11px/1.4 'SourceCodePro', sans-serif;
+  font: 400 16px/1.5 'SourceCodePro', sans-serif;
   color: #ffffff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #323232;
   overflow: hidden;
-  display: block;
+  display: flex;
 }
 
 .dashboard {
-  margin-top: 200px;
-  margin-left: 200px;
+  margin: 200px 0 0 200px;
+}
+
+.dashboard form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
 
 @media screen and (max-width: 1200px) {

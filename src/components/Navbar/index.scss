@@ -35,7 +35,7 @@
       width: 100%;
   
       a {
-        font-size: 30px;
+        font-size: 1.875em;
         color: #4d4d4e;
         display: block;
         line-height: 51px;
@@ -61,7 +61,7 @@
   
         &:after {
           content: '';
-          font-size: 15px;
+          font-size: 0.5em;
           letter-spacing: 2px;
           position: absolute;
           bottom: 0;
@@ -89,6 +89,12 @@
       a.contact-link {
         &:after {
           content: 'CONTACT';
+        }
+      }
+
+      a.skills-link {
+        &:after {
+          content: 'SKILLS';
         }
       }
   

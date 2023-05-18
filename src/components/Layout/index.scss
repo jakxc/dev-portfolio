@@ -17,7 +17,7 @@
     position: absolute;
     bottom: 0;
     left: 12%;
-    font-size: 18px;
+    font-size: 1.125rem;
   }
   
   .bottom-tag-html {
@@ -41,10 +41,17 @@
   
   .container.contact-page,
   .container.about-page,
-  .container.portfolio-page {
+  .container.portfolio-page,
+  .container.skills-page {
+      &::-webkit-scrollbar {
+        display: none;
+      }
+
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
     
       h1 {
-        font-size: 53px;
+        font-size: 3em;
         color: $primary-color;
         font-weight: 400;
         margin-top: 0;
@@ -55,7 +62,7 @@
         &:before {
           content: '<h1>';
           color: #ffffff;
-          font-size: 18px;
+          font-size: 1.125rem;
           position: absolute;
           margin-top: -10px;
           left: -10px;
@@ -66,7 +73,7 @@
         &:after {
           content: '<h1/>';
           color: #ffffff;
-          font-size: 18px;
+          font-size: 1.125rem;
           line-height: 18px;
           position: absolute;
           left: -30px;
@@ -77,7 +84,7 @@
       }
   
       p {
-        font-size: 16px;
+        font-size: 1rem;
         color: #fff;
         font-weight: 300;
         max-width: fit-content;
@@ -128,6 +135,7 @@
   
       &.contact-page,
       &.about-page,
+      &.skills-page,
       &.portfolio-page {
         .text-content {
           position: initial;
