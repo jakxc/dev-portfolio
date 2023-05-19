@@ -87,4 +87,18 @@
         background-color: $primary-color;
     }
   }
+
+  .image-container {
+    width: 35%;
+    height: 35%;
+    position: absolute;
+    top: 25%;
+    right: 10%;
+  }
+  
+  .portal-image {
+    width: 100%;
+    height: auto;
+  }
+  
   
