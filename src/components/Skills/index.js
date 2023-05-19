@@ -1,6 +1,17 @@
 import { useEffect, useState } from 'react'
+import {
+  faHtml5,
+  faCss3,
+  faJsSquare,
+  faReact,
+  faUnity,
+  faGitAlt,
+
+} from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
+import CV from '../../assets/images/JakxcCV.pdf'
 import './index.scss'
 
 const Skills = () => {
@@ -24,23 +35,46 @@ const Skills = () => {
                 />
             </h1>
             <p>
-                Hello, my name is Jack (a.k.a jakxc). I am a front end developer and an
-                aspiring game designer/developer. My interest in developing things through
-                code is one that is ever expanding, as cringe as that might sound. I try use the 
-                skills from the cube to the right to create things that have real world impact.
+                I am familiar with front end tech stacks like <span className='highlight-text'>HTML5</span>, 
+                <span className='highlight-text'> CSS3</span>,<span className='highlight-text'> Javascript</span>,
+                <span className='highlight-text'> React</span>, <span className='highlight-text'> Typescript</span>, 
+                <span className='highlight-text'> Sass</span> and <span className='highlight-text'> Git</span>.
             </p>
             <p>
-                I have used multiple front end tech stacks throughout my career. Some pretty niche 
-                (such as QT/QML) and some more main stream. I am always looking to improve on the 
-                tech stacks I am familiar with as well as gain as many new skill sets with others
-                as possible. I view this as important because the tech world is ever changing.
+                I have experience with multiple roles as front end developer and UI/EX Engineer. Throughout my
+                time in these roles, I have enhanced my skills as a front end developer many fold through working on 
+                commercial projects. I have strong understanding of aesthetics and responsive (mobile first) web design.
+                For any project I am assigned to, I strive to optimise the code and user experience.
             </p>
             <p>
-                Aside from coding, I am an avid manga and anime enthusiast. I also love playing
-                strategy games such as TFT and FPS games such as Valorant in my free time. I love
-                cycling, and often do it as a primary source of exercise.
+                Feel free to visit my <a href='https://www.linkedin.com/in/jack-chen-798696196/'>LinkedIn</a> or 
+                take a look at my <a href={CV}>CV</a> for more details. 
             </p>
+          </div>
+
+            
+          <div className="cube-container">
+            <div className="cube-spinner">
+              <div className="face1">
+                <FontAwesomeIcon icon={faHtml5} color="#F06529" />
+              </div>
+              <div className="face2">
+                <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
+              </div>
+              <div className="face3">
+                <FontAwesomeIcon icon={faJsSquare} color="#28A4D9" />
+              </div>
+              <div className="face4">
+                <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
+              </div>
+              <div className="face5">
+                <FontAwesomeIcon icon={faUnity} color="#000000" />
+              </div>
+              <div className="face6">
+                <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
+              </div>
             </div>
+          </div>
 
         </div>
       <Loader type="pacman" />

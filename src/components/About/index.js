@@ -1,16 +1,7 @@
 import { useEffect, useState } from 'react'
-import {
-  faHtml5,
-  faCss3,
-  faJsSquare,
-  faReact,
-  faUnity,
-  faGitAlt,
-
-} from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import planetImg from '../../assets/images/planet.png'
 import './index.scss'
 
 const About = () => {
@@ -51,28 +42,12 @@ const About = () => {
             cycling, and often do it as a primary source of exercise.
           </p>
         </div>
-
-        <div className="cube-container">
-          <div className="cube-spinner">
-            <div className="face1">
-              <FontAwesomeIcon icon={faHtml5} color="#F06529" />
-            </div>
-            <div className="face2">
-              <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
-            </div>
-            <div className="face3">
-              <FontAwesomeIcon icon={faJsSquare} color="#28A4D9" />
-            </div>
-            <div className="face4">
-              <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
-            </div>
-            <div className="face5">
-              <FontAwesomeIcon icon={faUnity} color="#000000" />
-            </div>
-            <div className="face6">
-              <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
-            </div>
-          </div>
+        <div className='image-container'>
+          <img
+            className="planet-image"
+            src={planetImg}
+            alt="Planet"
+          />
         </div>
       </div>
       <Loader type="pacman" />
