@@ -2,9 +2,9 @@ import { useEffect, useState } from 'react'
 import {
   faHtml5,
   faCss3,
+  faSass,
   faJsSquare,
   faReact,
-  faUnity,
   faGitAlt,
 
 } from '@fortawesome/free-brands-svg-icons'
@@ -62,13 +62,13 @@ const Skills = () => {
                 <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
               </div>
               <div className="face3">
-                <FontAwesomeIcon icon={faJsSquare} color="#28A4D9" />
+                <FontAwesomeIcon icon={faSass} color="#F06292" />
               </div>
               <div className="face4">
-                <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
+                <FontAwesomeIcon icon={faJsSquare} color="#FFD600" />
               </div>
               <div className="face5">
-                <FontAwesomeIcon icon={faUnity} color="#000000" />
+                <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
               </div>
               <div className="face6">
                 <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />

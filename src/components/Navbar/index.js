@@ -54,13 +54,6 @@ const Navbar = () => {
                 to='/contact'>
                   <FontAwesomeIcon icon={faEnvelope} color='4d4d4e'/>
               </NavLink>
-              <FontAwesomeIcon 
-                onClick={() => setShowNav(false)}
-                icon={faClose}
-                color="#ffd700"
-                size="3x"
-                className='close-icon' 
-              />
             </nav>
             <ul>
               <li>
@@ -104,11 +97,12 @@ const Navbar = () => {
               </li>
           </ul>
           <FontAwesomeIcon 
-            onClick={() => setShowNav(true)}
-            icon={faBars}
+            onClick={() => setShowNav(!showNav)}
+            icon={showNav ? faClose : faBars}
             color="#ffd700"
             size="3x"
-            className='hamburger-icon' />
+            className='hamburger-icon' 
+          />
       </div>
     )
 }

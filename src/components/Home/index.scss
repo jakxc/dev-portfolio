@@ -82,24 +82,36 @@
   
   
   @media screen and (max-width: 1200px) {
-    .tags,
-    .home-page h1:before,
-    .home-page h1:after {
+    .tags {
       display: none;
     }
   
-    .home-page .text-content {
-      position: initial;
-      width: 100%;
-      transform: none;
-      padding: 10px;
-      box-sizing: border-box;
-    }
-  
-    .home-page .flat-button {
-      float: none;
-      display: block;
-      margin: 20px auto 0 auto;
-      width: 124px;
+    .home-page  {
+      h1 {
+        font-size: 3rem;
+
+        &:before {
+          display: none;
+        }
+
+        &:after {
+          display: none;
+        }
+      }
+
+      .text-content {
+        width: 100%;
+        position: initial;
+        transform: none;
+        padding: 10px;
+        box-sizing: border-box;
+      }
+
+      .flat-button {
+        float: none;
+        display: block;
+        margin: 20px auto 0 auto;
+        width: 124px;
+      }
     }
   }
