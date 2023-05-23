@@ -1,20 +1,17 @@
 @use '../../App' as *;
 
 .image-container {
-  width: 35%;
-  height: 35%;
+  width: 500px;
   position: absolute;
   top: 25%;
   right: 10%;
-}
 
-.planet-image {
-  width: 100%;
-  height: auto;
-  animation: updown 3s linear infinite;
-}
+  .planet-image {
+    width: 100%;
+    animation: updown 3s linear infinite;
+  }
 
-@keyframes updown {
+  @keyframes updown {
     0% {
         transform: translateY(-20px);
     }
@@ -24,4 +21,8 @@
     100% {
         transform: translateY(-20px);
     }
+  }
 }
+
+
+

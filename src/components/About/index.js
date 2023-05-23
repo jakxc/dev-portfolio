@@ -25,10 +25,10 @@ const About = () => {
             />
           </h1>
           <p>
-            Hello, my name is Jack (a.k.a jakxc). I am a front end developer and an
-            aspiring game designer/developer. My interest in developing things through
-            code is one that is ever expanding, as cringe as that might sound. I try use the 
-            skills from the cube to the right to create things that have real world impact.
+            Hello, my name is Jack (a.k.a jakxc). I am a front end developer and
+            aspiring Unity developer. My interest in developing things through
+            code is ever expanding. I try use the skills from the cube to the right to 
+            create things that have real world impact.
           </p>
           <p>
             I have used multiple front end tech stacks throughout my career. Some pretty niche 

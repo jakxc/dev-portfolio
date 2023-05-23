@@ -26,7 +26,7 @@ const Skills = () => {
   return (
     <>
         <div className="container skills-page">
-            <div className="text-content">
+          <div className="text-content">
             <h1>
                 <AnimatedLetters
                 letterClass={letterClass}
@@ -51,8 +51,7 @@ const Skills = () => {
                 take a look at my <a href={CV}>CV</a> for more details. 
             </p>
           </div>
-
-            
+ 
           <div className="cube-container">
             <div className="cube-spinner">
               <div className="face1">
@@ -75,7 +74,6 @@ const Skills = () => {
               </div>
             </div>
           </div>
-
         </div>
       <Loader type="pacman" />
     </>
