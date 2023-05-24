@@ -110,11 +110,11 @@
     }
   
     .text-content {
+      width: 35%;
       position: absolute;
       left: 15%;
       top: 50%;
       transform: translateY(-50%);
-      width: 35%;
       vertical-align: middle;
       display: table-cell;
       max-height: 90%;
@@ -173,20 +173,24 @@
           margin: auto;
         }
       }
-  
+
       &.portfolio-page {
-        width: 100%;
-        padding: 20px;
-        box-sizing: border-box;
-  
+        width: 100vw;   
+        padding: 50px 20px;
+
         h1.page-title {
           margin-left: 20px;
           margin-top: 20px;
         }
+
+        .cards-container {
+          justify-content: center;
+        }
   
         .image-box {
-          height: 200px;
-          max-width: calc(50% - 10px);
+          width: calc(100% - 20px);
+          max-width: 350px;
+          flex: 1 1 100%;
         }
       }
     }
