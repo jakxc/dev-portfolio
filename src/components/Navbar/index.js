@@ -27,9 +27,7 @@ const Navbar = () => {
             <img src={logo} alt='Logo'/>
           </Link>
           <nav className={showNav ? 'show' : 'hide'}>
-              <NavLink 
-                to='/'
-              >
+              <NavLink to='/'>
                 <FontAwesomeIcon icon={faHome} color='4d4d4e'/>
               </NavLink>
               <NavLink 
@@ -101,7 +99,7 @@ const Navbar = () => {
             icon={showNav ? faClose : faBars}
             color="#ffd700"
             size="3x"
-            className='hamburger-icon' 
+            className='nav-icon' 
           />
       </div>
     )
