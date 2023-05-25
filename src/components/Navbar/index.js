@@ -26,7 +26,7 @@ const Navbar = () => {
           <Link className='logo' to='/' >
             <img src={logo} alt='Logo'/>
           </Link>
-          <nav className={showNav ? 'mobile-show' : ''}>
+          <nav className={showNav ? 'show' : 'hide'}>
               <NavLink 
                 to='/'
               >
