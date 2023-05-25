@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3a4b0a47.css",
+    "main.js": "/static/js/main.e31632c7.js",
+    "static/media/planet.png": "/static/media/planet.ac6068d165a1f5917843.png",
+    "static/media/portal.png": "/static/media/portal.6a3bea321c92baabe1c3.png",
+    "static/media/SourceCodePro-Regular.ttf": "/static/media/SourceCodePro-Regular.2cacf64afc86b76c81e6.ttf",
+    "static/media/SourceCodePro-Bold.ttf": "/static/media/SourceCodePro-Bold.f76c0ac131d163cc3feb.ttf",
+    "static/media/SourceCodePro-Medium.ttf": "/static/media/SourceCodePro-Medium.f4fa00a9bdfab752a663.ttf",
+    "static/media/jakxc-logo-color.png": "/static/media/jakxc-logo-color.46ef146c1f68626bd654.png",
+    "static/media/JakxcCV.pdf": "/static/media/JakxcCV.62140ef5e55890f4bdad.pdf",
+    "index.html": "/index.html",
+    "main.3a4b0a47.css.map": "/static/css/main.3a4b0a47.css.map",
+    "main.e31632c7.js.map": "/static/js/main.e31632c7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a4b0a47.css",
+    "static/js/main.e31632c7.js"
+  ]
+}
