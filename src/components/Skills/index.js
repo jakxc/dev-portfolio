@@ -49,7 +49,8 @@ const Skills = () => {
             <p>
                 Feel free to visit my <a href='https://www.linkedin.com/in/jack-chen-798696196/'>LinkedIn</a> or 
                 take a look at my <a href={CV}>CV</a> for more details. 
-            </p>
+            </p>      
+            <p className='sub-text'>P.S. All the 3D assets in the portfolio were created by yours truly using Blender.</p>    
           </div>
  
           <div className="cube-container">

@@ -105,7 +105,7 @@ const Contact = () => {
                             </li>
                             <li>
                                 <textarea
-                                    placeholder="Message"
+                                    placeholder="Message or Comments"
                                     name="message"
                                     value={formData.message}
                                     onChange={handleChange}
