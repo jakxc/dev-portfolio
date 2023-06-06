@@ -35,13 +35,13 @@ const Skills = () => {
                 />
             </h1>
             <p>
-                I am familiar with front end tech stacks like <span className='highlight-text'>HTML5</span>, 
+                I am familiar with front end tech stacks such as <span className='highlight-text'>HTML5</span>, 
                 <span className='highlight-text'> CSS3</span>,<span className='highlight-text'> Javascript</span>,
                 <span className='highlight-text'> React</span>, <span className='highlight-text'> Typescript</span>, 
                 <span className='highlight-text'> Sass</span> and <span className='highlight-text'> Git</span>.
             </p>
             <p>
-                I have experience with multiple roles as front end developer and UI/EX Engineer. Throughout my
+                I have experience with multiple roles as a front end developer and UI/UX Engineer. Throughout my
                 time in these roles, I have enhanced my skills as a front end developer many fold through working on 
                 commercial projects. I have strong understanding of aesthetics and responsive (mobile first) web design.
                 For any project I am assigned to, I strive to optimise the code and user experience.
